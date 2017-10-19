@@ -1,0 +1,22 @@
+body {margin: 30px;
+	  font-family: 'helvetica','arial';
+	  line-height:1.5;
+		background-color: black;
+	    color: white;}
+
+header {text-align: center;
+line-height: 0;}
+
+
+main {max-width: 800px;
+  	margin: auto;
+  	padding: 0px 20px 0px 20px;}
+
+p {font-size: 16px;
+  color: gray;}
+
+img {width: 30%;}
+
+li {color:gray;}
+
+h2 {color: gray;}

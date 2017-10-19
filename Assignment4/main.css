@@ -1,0 +1,368 @@
+ /*==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box; 
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+ 
+/*SITE COLORS:*/
+
+/*White - #FFFFFF */
+/*Light Grey - #D7E0DB */
+/*Dark Grey - #3B393A */
+/*Grey/Black(text color) - #080808 */
+/*Yellow - #FAD735 */
+/*Red - #E9403D*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+/*font-family: 'Merriweather', serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+
+
+/* Global
+   ================================================================ */
+
+/* Layout
+   ================================================================ */
+body {
+  background-color: #D7E0DB;
+  color:#080808;
+}
+
+hr{
+  border: 4px solid #FAD735;
+  border-bottom: 1px solid #3B393A;
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+  margin-left:10px;
+  margin-right:15px;
+}
+
+img{
+  border-top: 1px solid #3B393A;
+  border-bottom: 1px solid #3B393A;
+  position: static;
+}
+
+/* Headings ================================================================ */
+h1, a{
+  text-decoration:none;
+}
+
+/* Text Styles ================================================================ */
+/*font-family: 'Merriweather', serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+h1 {
+    font-size:30px;
+    font-family: 'Merriweather', serif;
+    color: #FFFFFF;
+    margin:0px;
+    padding: 0px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: #080808;
+    margin-left:10px;
+}
+
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    height: 75%;
+    padding-top: 50px;
+    padding-bottom: 100px;  
+}
+
+.col-container {
+    display: block;
+    width: 300px; 
+}
+
+.col {
+    display: block; 
+    border: right;
+    border-color: #D7E0DB;
+}
+
+/* Clear floats after the columns */
+
+.column, .row:after {
+    content: "";
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #080808;
+    clear: right;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-style: bold;
+    color: #3B393A;
+    margin-left: 10px;
+  }
+
+h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tagline {
+    margin: 12px;
+    font-family: 'Merriweather', serif;
+    font-style: italic; bold;
+    font-size: 25px;
+    color: #080808;
+    text-align: center;
+}
+
+/* Header ================================================================ */
+header {
+    list-style-type: none;
+    padding: 1px;
+    background-color: #3B393A;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+h1{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #3B393A;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+li {
+  float: left;
+}
+
+li a {
+    display: inline;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FAD735;
+}
+
+div.column {
+  padding-right: 10px;
+  padding-bottom: 40px;
+  padding-left: 10px; 
+  border-right: 1px solid #D7E0DB;
+}
+
+/* Footer ================================================================ */
+
+footer {
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: #3B393A;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    clear: left;
+}
+
+/* Navigation ================================================================ */
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Buttons ================================================================ */
+a.button1 {
+    background-color: #E9403D; /* Red */
+    border-bottom-color: #8B0000;
+    border-bottom-width:20px;
+    border-right-color: #8B0000;
+    border-right-width:20px;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding: 1.5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    width: 100%;
+    display: block;
+    box-shadow: 3px 3px 1.5px #E9403D;
+}
+
+a.button2{
+    background-color: #D7E0DB; /* light gray */
+    border-bottom-color: #3B393A;
+    border-bottom-width: 20px;
+    border-right-color:#3B393A;
+    border-right-width:20px;
+    border-radius: 5px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    color: #080808;
+    border: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding:5px 50px;
+    box-shadow: 3px 3px 1.5px #3B393A;
+    width: 100%;
+    display: block;
+}
+
+a.button3 {
+    background-color: #D7E0DB; /* light gray */
+    border-bottom-color: #3B393A;
+    border-bottom-width: 20px;
+    border-right-color:#3B393A;
+    border-right-width:20px;
+    border-radius: 5px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    color: #080808;
+    border: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding:5px 50px;
+    box-shadow: 3px 3px 1.5px #3B393A;
+    width: 100%;
+    display: block;
+}
+
+a.button4{
+    background-color: #D7E0DB; /* light gray */
+    border-bottom-color: #3B393A;
+    border-bottom-width: 20px;
+    border-right-color:#3B393A;
+    border-right-width:20px;
+    border-radius: 5px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    color: #080808;
+    border: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding:5px 50px;
+    box-shadow: 3px 3px 1.5px #3B393A;
+    width: 100%;
+    display: block;
+  }
+
+/*Overlapping Element*/
+h5 {
+  position: absolute;
+  height: 300px;
+  width: 520px;
+  top: 20%;
+  left: 80%;
+  margin: 50px;
+  padding: 42px;
+  width: 30%;
+  padding: 42px;
+  background: rgba(255,255,255,.6);
+  z-index: 50;
+  border: 2px solid #3B393A;
+}
+
+ Transparent Box 
+===============================================================
+.box1 {
+  background: url("images/coworking.jpg") 100%;
+  color:#3B393A;
+  width: 191px;
+  height: 122px;
+  float: right;
+  margin-left: 10px;
+  opacity: 0.6;
+  position: absolute;
+}
+
+div.background {
+  background: url("images/coworking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px #D7E0DB;
+}
+
+div.transbox {
+  display:block;
+  margin: 0;
+  background-color: #ffffff;
+  border: 1px #D7E0DB;
+  opacity: 0.6;
+}
+
+div.transbox h5 {
+  display:block;
+  margin: 0;
+  background-color: #ffffff;
+  border: 1px #D7E0DB;
+  opacity: 0.6;
+}

@@ -1,0 +1,19 @@
+html
+	/* '*' applies element to all elements*/
+
+	* {box-sizing: border-box;} add solid black border 1px to see boxes 
+	
+	/*CSS Portion
+	.clearfix:after
+	{Content: "";
+	display: table;
+	clear: both;}
+
+	HTML Portion
+	 <div class="clearfix">
+	 <p>1</p> <!-- float: left -->
+ 	<p>2</p> <!-- float: left -->
+ 	<p>3</p> <!-- float: left -->
+ 	</div>*/
+
+ 	Ctrl? = comment out line
