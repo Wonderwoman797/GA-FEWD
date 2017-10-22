@@ -1,0 +1,24 @@
+/* Global Overrides ============================================= */
+* 
+	{box-sizing: border-box;
+	font-family: 'Cinzel', serif;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	background-color: #610345;}
+
+.clearfix:after 
+	{display: table;
+  	clear: both;
+  	content: "";}
+
+/* Author's custom styles =======================================
+Fonts (Google)	Cinzel and Saira Extra Condensed, sans-serif*/
+
+/*SITE COLORS:
+Colors - Yellow: #E3B505 	Red: #95190C	Purple: #610345		Green: #107E7D		Blue: #044B7F*/
+
+/*Other Notes
+- Remember to bring over a normalize.css OR a reset.css from a previous project. Make sure you link them in your file. 
+*/
+
+	color: #E3B505;
+	border-color: #044B7F;
